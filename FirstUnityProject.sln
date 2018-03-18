@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUnityProject.Plugins", "FirstUnityProject.Plugins.csproj", "{A5190DA3-6A96-7BC0-5196-6544FC796023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUnityProject", "FirstUnityProject.csproj", "{C1884989-2EBB-2303-534D-E8571617C109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUnityProject.Editor.Plugins", "FirstUnityProject.Editor.Plugins.csproj", "{1237C161-2690-6063-B346-E2DFD69E3BA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5190DA3-6A96-7BC0-5196-6544FC796023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5190DA3-6A96-7BC0-5196-6544FC796023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5190DA3-6A96-7BC0-5196-6544FC796023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5190DA3-6A96-7BC0-5196-6544FC796023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1884989-2EBB-2303-534D-E8571617C109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1884989-2EBB-2303-534D-E8571617C109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1884989-2EBB-2303-534D-E8571617C109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1884989-2EBB-2303-534D-E8571617C109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1237C161-2690-6063-B346-E2DFD69E3BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1237C161-2690-6063-B346-E2DFD69E3BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1237C161-2690-6063-B346-E2DFD69E3BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1237C161-2690-6063-B346-E2DFD69E3BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
