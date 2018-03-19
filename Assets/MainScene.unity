@@ -1132,8 +1132,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1143730012}
-  maxDistance: 25
-  minDistance: 5
+  maxDistance: 20
+  minDistance: 3
 --- !u!82 &1387253019
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1617,10 +1617,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1750238213}
   - component: {fileID: 1750238212}
-  - component: {fileID: 1750238211}
   - component: {fileID: 1750238210}
   - component: {fileID: 1750238209}
   - component: {fileID: 1750238214}
+  - component: {fileID: 1750238215}
+  - component: {fileID: 1750238211}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1674,8 +1675,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &1750238211
-CapsuleCollider:
+--- !u!143 &1750238211
+CharacterController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1683,9 +1684,13 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  serializedVersion: 2
   m_Height: 2
-  m_Direction: 1
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1750238212
 MeshFilter:
@@ -1714,7 +1719,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750238208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5200c881b1e654d408369ec07c132c2f, type: 3}
   m_Name: 
@@ -1725,6 +1730,27 @@ MonoBehaviour:
   attackRange: 15
   moveSpeed: 5
   damping: 6
+--- !u!114 &1750238215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1750238208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce7288d0f7c0c54fabc94a2f61c2478, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 0
+  Target: {fileID: 1143730012}
+  lookAtDistance: 25
+  chaseRange: 15
+  attackRange: 1.5
+  moveSpeed: 5
+  damping: 6
+  attackReapatTime: 1
+  controller: {fileID: 1750238211}
+  gravity: 20
 --- !u!1 &1834432384
 GameObject:
   m_ObjectHideFlags: 0
