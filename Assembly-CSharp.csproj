@@ -55,11 +55,12 @@
     <Compile Include="Assets\Scripts\AdvancedAI.cs" />
     <Compile Include="Assets\Scripts\AISpimple.cs" />
     <Compile Include="Assets\Scripts\AudioZones.cs" />
+    <Compile Include="Assets\Scripts\DoorLogic.cs" />
     <Compile Include="Assets\Scripts\EnemyLogic.cs" />
     <Compile Include="Assets\Scripts\MeleeSystem.cs" />
     <Compile Include="Assets\Scripts\VolumeInterpolate.cs" />
     <Compile Include="Assets\Scripts\weaponSwitching.cs" />
-    <None Include="Assets\Adventure Game Starter Pack\Wispy Sky\ReadMe.txt" />
+    <None Include="Assets\Imports\Wispy Sky\ReadMe.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

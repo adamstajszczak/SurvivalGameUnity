@@ -7,8 +7,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AdvancedAI.cs" t="Include" />
-        <e p="Adventure Game Starter Pack" t="Include">
+        <e p="Imports" t="Include">
           <e p="Wispy Sky" t="Include">
             <e p="ReadMe.txt" t="Include" />
           </e>
@@ -21,8 +20,10 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AdvancedAI.cs" t="Include" />
           <e p="AISpimple.cs" t="Include" />
           <e p="AudioZones.cs" t="Include" />
+          <e p="DoorLogic.cs" t="Include" />
           <e p="EnemyLogic.cs" t="Include" />
           <e p="MeleeSystem.cs" t="Include" />
           <e p="VolumeInterpolate.cs" t="Include" />
