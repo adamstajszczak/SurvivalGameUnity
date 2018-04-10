@@ -7,21 +7,19 @@ public class EnemyLogic : MonoBehaviour {
 
     public int health = 100;
 
-    private void Update()
-    {
-        if (health <= 0)
-        {
-            dead();
-        }
-    }
+
 
     private void dead()
     {
         Destroy(gameObject);
     }
 
-    void ApplyDamage(int damage)
+    void ApplyDamage(int TheDammage)
     {
-        health -= damage;
+        health -= TheDammage;
+        if (health <= 0)
+        {
+            dead();
+        }
     }
 }

@@ -13,6 +13,8 @@ public class AdvancedAI : MonoBehaviour {
 	public float damping = 6.0f;
 	public float attackReapatTime = 1f;
 
+	public float TheDammage = 40f; 
+	
 	private float attackTime;
 	
 	public CharacterController controller;
@@ -69,7 +71,8 @@ public class AdvancedAI : MonoBehaviour {
 	{
 		if (Time.time > attackTime)
 		{
-			Debug.Log("Insert attack here!");
+			Target.SendMessage("ApplyDamage", TheDammage);
+			Debug.Log("The enemy has attacked");
 			attackTime = Time.time + attackReapatTime;
 		}
 	}

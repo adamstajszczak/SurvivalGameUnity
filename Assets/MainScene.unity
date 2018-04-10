@@ -1063,6 +1063,18 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 1356772917}
+--- !u!114 &1143730013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1143730011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd088774003caad4f8526529d4d92963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!45 &1143730017
 Skybox:
   m_ObjectHideFlags: 0
@@ -1071,6 +1083,17 @@ Skybox:
   m_GameObject: {fileID: 1143730011}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 0}
+--- !u!114 &1143730019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1143730011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c7c4ba0b40fc3e40b16320e72ca7da5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1287894749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,7 +1924,6 @@ GameObject:
   - component: {fileID: 1750238212}
   - component: {fileID: 1750238210}
   - component: {fileID: 1750238209}
-  - component: {fileID: 1750238214}
   - component: {fileID: 1750238215}
   - component: {fileID: 1750238211}
   m_Layer: 0
@@ -1988,30 +2010,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750238208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 108.5, y: 1.4, z: 118.9}
+  m_LocalPosition: {x: -13.18, y: 1.4, z: -42.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1387253017}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1750238214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1750238208}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5200c881b1e654d408369ec07c132c2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distance: 0
-  Target: {fileID: 1143730012}
-  lookAtDistance: 25
-  attackRange: 15
-  moveSpeed: 5
-  damping: 6
 --- !u!114 &1750238215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,6 +2036,7 @@ MonoBehaviour:
   moveSpeed: 5
   damping: 6
   attackReapatTime: 1
+  TheDammage: 40
   controller: {fileID: 1750238211}
   gravity: 20
 --- !u!1 &1834432384

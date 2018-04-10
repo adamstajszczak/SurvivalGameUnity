@@ -33,5 +33,9 @@ public class VolumeInterpolate : MonoBehaviour {
         {
             _aSource.volume = 0f;
         }
+        else if (RespawnMenu.playerIsDead == true)
+        {
+            _aSource.volume = 0f;
+        }
     }
 }

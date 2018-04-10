@@ -12,6 +12,7 @@
             <e p="ReadMe.txt" t="Include" />
           </e>
         </e>
+        <e p="PlayerStats.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -19,6 +20,7 @@
             </e>
           </e>
         </e>
+        <e p="RespawnMenu.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AdvancedAI.cs" t="Include" />
           <e p="AISpimple.cs" t="Include" />
